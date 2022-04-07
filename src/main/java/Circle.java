@@ -13,5 +13,26 @@ public class Circle {
         this.center=new Point();
         this.radius=RADIUS_DEFAULT;
     }
-    s
+
+    public Point getCenter() {
+        return center;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setCenter(Point center) {
+        this.center = center;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    public void expand(double scaleFactor){
+        if (this.radius >0){
+            this.radius*=scaleFactor;
+        }
+    }
 }
