@@ -50,4 +50,11 @@ public class Circle extends Figure{
 
         return Math.PI*Math.pow(this.radius,2);
     }
+    public double mPerimetro(){
+        return 2*Math.PI*this.radius;
+    }
+    public double mArea() {
+
+        return Math.PI*Math.pow(this.radius,2);
+    }
 }
