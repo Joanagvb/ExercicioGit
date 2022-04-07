@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle extends Figure{
 
     private Point upperLeft;
     private Point bottomRight;
@@ -25,5 +25,19 @@ public class Rectangle {
 
     public void setUpperLeft(Point upperLeft) {
         this.upperLeft = upperLeft;
+    }
+
+    @Override
+    public double perimeter() {
+        double ceilingSize = this.bottomRight.getX()-upperLeft.getX();
+        double sideSize = this.upperLeft.getY()-this.getBottomRight().getY();
+        return 2*ceilingSize+2*sideSize;
+    }
+
+    @Override
+    public double area() {
+        double ceilingSize = this.bottomRight.getX()-upperLeft.getX();
+        double sideSize = this.upperLeft.getY()-this.getBottomRight().getY();
+        return ceilingSize*sideSize;
     }
 }

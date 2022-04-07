@@ -1,4 +1,4 @@
-public class Circle {
+public class Circle extends Figure{
     private Point center;
     private double radius;
 
@@ -40,4 +40,14 @@ public class Circle {
         return String.format("Point: %s --- Radius: %s",this.center,this.radius);
     }
 
+    @Override
+    public double perimeter() {
+        return 2*Math.PI*this.radius;
+    }
+
+    @Override
+    public double area() {
+
+        return Math.PI*Math.pow(this.radius,2);
+    }
 }
