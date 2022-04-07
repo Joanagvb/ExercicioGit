@@ -35,4 +35,9 @@ public class Circle {
             this.radius*=scaleFactor;
         }
     }
+
+    public String toString(){
+        return String.format("Point: %s --- Radius: %s",this.center,this.radius);
+    }
+
 }
