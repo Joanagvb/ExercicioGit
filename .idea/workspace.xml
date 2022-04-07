@@ -10,8 +10,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
 =======
 =======
-    <list default="true" id="3f5d0d4e-f1ae-47ff-ae8e-39c3f6d72293" name="Changes" comment="Criado classe Main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/QuatroPointClass.java" afterDir="false" />
+    <list default="true" id="3f5d0d4e-f1ae-47ff-ae8e-39c3f6d72293" name="Changes" comment="Criado classe M4 PointClass">
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuatroCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
 >>>>>>> afd133fbff64f885d4749c98287958d0bf36708f
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> b4ee24d0f26c84b65c4da5b2a84f3a3d3a70a2f4
@@ -85,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649343825247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criado classe M4 PointClass">
+      <created>1649344667870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649344667870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Criado Projeto Base" />
     <MESSAGE value="Criado classe Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado classe Main" />
+    <MESSAGE value="Criado classe M4 PointClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado classe M4 PointClass" />
   </component>
 </project>
