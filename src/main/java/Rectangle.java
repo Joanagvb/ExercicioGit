@@ -28,6 +28,11 @@ public class Rectangle extends Figure{
     }
 
     @Override
+    public String toString() {
+        return String.format("Rectangle : upperLeft:%s | bottomRight:%s ",upperLeft,bottomRight) ;
+    }
+
+    @Override
     public double perimeter() {
         double ceilingSize = this.bottomRight.getX()-upperLeft.getX();
         double sideSize = this.upperLeft.getY()-this.getBottomRight().getY();
